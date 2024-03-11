@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@100..900&family=Tajawal:wght@200;400;700&display=swap');
+:root {
+    --main-color: #0E3A42;
+    --secondary-color: #EAE0CA;
+}
+.btn {
+    background-color: var(--main-color);
+    color: var(--secondary-color);
+    border: 1px solid var(--main-color);
+    transition: all 0.3s ease-in-out;
+    }
+.btn:hover{
+    background-color: var(--secondary-color);
+    color: var(--main-color);
+    border: 1px solid var(--main-color);
+}
+body{
+    font-family: "Noto Kufi Arabic", sans-serif;
+    background-color: var(--secondary-color);
+}
+.top-nav{
+    background-color: var(--secondary-color);
+}
+nav{
+    background-color: var(--main-color);
+    color: lightcyan;
+}
+a.nav-link{
+    color: var(--secondary-color);
+}
+a.nav-link:hover{
+    color: var(--secondary-color);
+}
+.navbar-nav .nav-link.active,.nav-link.focus{
+    color: var(--secondary-color);
+}
+#hero .carousel-item{
+    height: calc(100vh - 172px);
+}
+#hero{
+    position: relative;
+}
+#hero .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+}
+/* Abou us */
+#about span {
+    color: var(--main-color);
+}
+#UPI {
+    background-color: var(--main-color);
+    color: var(--secondary-color);
+}
+#UPI .btn {
+    background-color: var(--secondary-color);
+    color: var(--main-color);
+    border: 1px solid var(--main-color);
+}
+#UPI .btn:hover{
+    background-color: var(--main-color);
+    color: var(--secondary-color);
+    border: 1px solid var(--secondary-color);
+}
+footer {
+    background-color: var(--main-color);
+    color: var(--secondary-color);
+}
+footer li {
+    list-style: none;
+    color: var(--secondary-color);
+}
+footer li a {
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+footer li:hover {
+    text-decoration: solid underline;
+    margin-right: 2px;
+    transition: 500ms;
+}
+footer li path {
+    fill: #f7f6f6;
+  }
